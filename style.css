@@ -1301,3 +1301,32 @@
 
   /* galery End */
 }
+
+/* Phone */
+@media (max-width: 650px) {
+  .navbar-top {
+    display: none;
+  }
+  .navbar-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-link {
+    background-color: rgba(222, 222, 222, 0.8);
+  }
+
+  .navbar-bottom .navbar-logo {
+    margin: 0;
+  }
+
+  .navbar-bottom .navbar-logo img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .navbar-bottom .navbar-extra {
+    margin: 0;
+  }
+
+}
